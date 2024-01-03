@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+*{
+  padding: 0;
+  margin: 0;
+background: #f8f8f8;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+  margin-top: 10px;
+}
+.book-librarry{
+  display: flex;
+  flex-direction: column;
+
+}
+.img-box{
+  display: flex;
+  justify-content: center;
+  margin: 10px ;
+}
+hr{
+  height: 20px;
+  background-color: #fff;
+  border: none;
+}
+p{
+  color: #777777;
+}
+button{
+  background: #2ecc71;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
